@@ -1,0 +1,23 @@
+argo-cd:
+  - changed-files:
+      - any-glob-to-any-file: charts/argo-cd/**
+
+argo-events:
+  - changed-files:
+      - any-glob-to-any-file: charts/argo-events/**
+
+argo-rollouts:
+  - changed-files:
+      - any-glob-to-any-file: charts/argo-rollouts/**
+
+argo-workflows:
+  - changed-files:
+      - any-glob-to-any-file: charts/argo-workflows/**
+
+argocd-image-updater:
+  - changed-files:
+      - any-glob-to-any-file: charts/argocd-image-updater/**
+
+argocd-apps:
+  - changed-files:
+      - any-glob-to-any-file: charts/argocd-apps/**

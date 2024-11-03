@@ -1,0 +1,8 @@
+crds:
+  keep: false
+
+server:
+  ingress:
+    enabled: true
+    hosts:
+      - argo-workflows.example.com
